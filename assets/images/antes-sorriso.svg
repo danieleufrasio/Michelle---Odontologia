@@ -1,0 +1,21 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" fill="#F4F1EC"/>
+  <rect x="70" y="70" width="1060" height="760" rx="36" fill="#E9E3DB"/>
+  <rect x="120" y="140" width="960" height="660" rx="28" fill="#F9F5F1"/>
+  <circle cx="600" cy="380" r="220" fill="#E8D6C3"/>
+  <path d="M455 390C455 271.994 530.994 196 649 196C767.006 196 843 271.994 843 390V418C843 536.006 767.006 612 649 612H600C530.994 612 455 536.006 455 418V390Z" fill="#F3C7B8"/>
+  <path d="M493 366C493 280.843 558.843 214 644 214C729.157 214 795 280.843 795 366V430C795 515.157 729.157 581 644 581H600C514.843 581 449 515.157 449 430V366H493Z" fill="#F7D9CE"/>
+  <path d="M449 456C536.886 528.124 659.612 534.674 755 456" stroke="#C67D6E" stroke-width="20" stroke-linecap="round"/>
+  <path d="M499 447C518 468 549 480 592 480C634 480 670 468 691 447" stroke="#C67D6E" stroke-width="12" stroke-linecap="round"/>
+  <path d="M455 314C494 257 547 228 604 228C663 228 716 256 759 314" stroke="#D9B29A" stroke-width="14" stroke-linecap="round"/>
+  <path d="M548 292L518 326" stroke="#B36D5B" stroke-width="12" stroke-linecap="round"/>
+  <path d="M740 292L770 326" stroke="#B36D5B" stroke-width="12" stroke-linecap="round"/>
+  <rect x="120" y="130" width="160" height="74" rx="24" fill="#B98266" fill-opacity="0.18"/>
+  <text x="200" y="178" text-anchor="middle" fill="#8D5B4C" font-size="38" font-family="Arial, sans-serif" font-weight="700">ANTES</text>
+  <rect x="740" y="82" width="230" height="68" rx="18" fill="#E7D3A4" fill-opacity="0.7"/>
+  <text x="855" y="128" text-anchor="middle" fill="#7D6843" font-size="26" font-family="Arial, sans-serif" font-weight="700">Sorriso natural</text>
+  <g opacity="0.45">
+    <rect x="460" y="692" width="280" height="16" rx="8" fill="#D1B38A"/>
+    <rect x="470" y="706" width="260" height="12" rx="6" fill="#D9BE8D"/>
+  </g>
+</svg>

@@ -62,11 +62,11 @@
   "openingHoursSpecification": [{
     "@type": "OpeningHoursSpecification",
     "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
-    "opens": "08:00",
-    "closes": "18:00"
+    "opens": "13:00",
+    "closes": "19:00"
   }],
   "medicalSpecialty": "Dentistry",
-  "sameAs": ["https://www.instagram.com/", "https://www.facebook.com/"]
+  "sameAs": ["https://www.instagram.com/dra.michelle.odonto", "https://www.facebook.com/michellemilene.sousaESSEAQUI"]
 }
 </script>
 
@@ -103,7 +103,7 @@
 <div class="topbar" id="topbar">
   <div class="container topbar__inner">
     <div class="topbar__item"><i class="fa-solid fa-location-dot"></i> Rua Rio de Janeiro, 324 — Ed. Lampadário, Divinópolis-MG</div>
-    <div class="topbar__item topbar__hours"><i class="fa-regular fa-clock"></i> Seg–Sex · 08h às 18h</div>
+    <div class="topbar__item topbar__hours"><i class="fa-regular fa-clock"></i> Seg–Sex · 13h às 19h</div>
     <a class="topbar__item topbar__whats" href="https://wa.me/5537999645554" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i> (37) 99964-5554</a>
   </div>
 </div>
@@ -125,7 +125,6 @@
         <li><a href="#sobre" class="nav-link" data-section="sobre">A Dra. Michelle</a></li>
         <li><a href="#tratamentos" class="nav-link" data-section="tratamentos">Tratamentos</a></li>
         <li><a href="#sorrisos" class="nav-link" data-section="sorrisos">Galeria</a></li>
-        <li><a href="#depoimentos" class="nav-link" data-section="depoimentos">Depoimentos</a></li>
         <li><a href="#contato" class="nav-link" data-section="contato">Localização</a></li>
       </ul>
     </nav>
@@ -146,7 +145,6 @@
     <button data-target="sobre" class="rail-dot"><span>Sobre</span></button>
     <button data-target="tratamentos" class="rail-dot"><span>Tratamentos</span></button>
     <button data-target="sorrisos" class="rail-dot"><span>Galeria</span></button>
-    <button data-target="depoimentos" class="rail-dot"><span>Depoimentos</span></button>
     <button data-target="contato" class="rail-dot"><span>Localização</span></button>
   </div>
 </header>
@@ -163,15 +161,14 @@
       <li style="--i:1"><a href="#sobre" class="mobile-link">A Dra. Michelle</a></li>
       <li style="--i:2"><a href="#tratamentos" class="mobile-link">Tratamentos</a></li>
       <li style="--i:3"><a href="#sorrisos" class="mobile-link">Galeria de sorrisos</a></li>
-      <li style="--i:4"><a href="#depoimentos" class="mobile-link">Depoimentos</a></li>
-      <li style="--i:5"><a href="#contato" class="mobile-link">Localização</a></li>
+      <li style="--i:4"><a href="#contato" class="mobile-link">Localização</a></li>
     </ol>
   </nav>
   <div class="mobile-menu__footer">
     <a href="https://wa.me/5537999645554" target="_blank" rel="noopener" class="btn btn--primary btn--pill"><i class="fa-brands fa-whatsapp"></i> Falar no WhatsApp</a>
     <div class="mobile-menu__social">
-      <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
-      <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+      <a href="https://www.instagram.com/dra.michelle.odonto" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://www.facebook.com/michellemilene.sousaESSEAQUI" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
     </div>
   </div>
 </div>
@@ -216,8 +213,8 @@
           <p>Avaliação dos pacientes</p>
         </div>
         <div class="stat">
-          <span class="stat__num" data-count="12">0</span><span class="stat__suffix">+</span>
-          <p>Anos de cuidado odontológico</p>
+          <span class="stat__num" data-count="100">0</span><span class="stat__suffix">%</span>
+          <p>Pacientes satisfeitos</p>
         </div>
         <div class="stat">
           <span class="stat__num" data-count="3200">0</span><span class="stat__suffix">+</span>
@@ -280,9 +277,9 @@
           <p>Diagnóstico, prevenção e tratamentos restauradores com foco na saúde bucal completa.</p>
         </article>
         <article class="service-card" data-aos="fade-up" data-aos-delay="80">
-          <div class="service-card__icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
-          <h3>Harmonização Facial</h3>
-          <p>Procedimentos estéticos que valorizam a harmonia entre sorriso e expressão facial.</p>
+          <div class="service-card__icon"><i class="fa-solid fa-sparkles"></i></div>
+          <h3>Clareamento Dental</h3>
+          <p>Tratamento seguro e eficaz para deixar o sorriso mais luminoso com naturalidade.</p>
         </article>
         <article class="service-card" data-aos="fade-up" data-aos-delay="160">
           <div class="service-card__icon"><i class="fa-solid fa-child-reaching"></i></div>
@@ -292,7 +289,7 @@
         <article class="service-card" data-aos="fade-up" data-aos-delay="240">
           <div class="service-card__icon"><i class="fa-solid fa-teeth"></i></div>
           <h3>Alinhadores Invisíveis</h3>
-          <p>Alinhe seus dentes de forma discreta, sem mudar sua rotina.</p>
+          <p>Alinhe seus dentes com discreção, conforto e apoio de uma equipe parceira.</p>
         </article>
         <article class="service-card" data-aos="fade-up" data-aos-delay="320">
           <div class="service-card__icon"><i class="fa-solid fa-shield-heart"></i></div>
@@ -362,30 +359,72 @@
     </div>
   </section>
 
-  <!-- ============ DEPOIMENTOS ============ -->
-  <section class="testimonials" id="depoimentos">
-    <div class="container testimonials__grid">
-      <div class="testimonials__intro" data-aos="fade-right">
-        <p class="eyebrow"><span class="dot"></span> Depoimentos</p>
-        <h2>Quem já sorriu com a gente</h2>
-        <p class="section-head__lead">A confiança dos nossos pacientes é o que guia cada atendimento.</p>
+  <!-- ============ ANTES E DEPOIS ============ -->
+  <section class="before-after" id="resultados">
+    <div class="container">
+      <div class="section-head" data-aos="fade-up">
+        <p class="eyebrow eyebrow--center"><span class="dot"></span> Resultados</p>
+        <h2>Antes e depois com mais naturalidade e confiança</h2>
+      </div>
 
-        <div class="rating-summary">
-          <div class="rating-summary__num">5.0</div>
-          <div>
-            <div class="rating-summary__stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
-            <span>Avaliação média dos pacientes</span>
+      <div class="comparison-slider" data-aos="fade-up" aria-label="Comparação antes e depois">
+        <div class="comparison-slider__images">
+          <img src="assets/images/antes_dentes.jpg" alt="Antes do tratamento odontológico" class="comparison-slider__image comparison-slider__image--before" loading="lazy">
+
+          <div class="comparison-slider__overlay" aria-hidden="true">
+            <img src="assets/images/depois_01.jpg" alt="Depois do tratamento odontológico" class="comparison-slider__image comparison-slider__image--after" loading="lazy">
+          </div>
+
+          <div class="comparison-slider__divider" aria-hidden="true">
+            <span><i class="fa-solid fa-arrows-left-right"></i></span>
           </div>
         </div>
 
-        <a href="https://wa.me/5537999645554" target="_blank" rel="noopener" class="btn btn--outline">Quero ser o próximo sorriso <i class="fa-solid fa-arrow-right"></i></a>
-      </div>
+        <div class="comparison-slider__labels">
+          <span class="comparison-slider__label comparison-slider__label--before">Antes</span>
+          <span class="comparison-slider__label comparison-slider__label--after">Depois</span>
+        </div>
 
-      <div class="testimonials__media" data-aos="fade-left">
-        <img src="assets/images/testemunho-footer.jpg" alt="Depoimento de paciente com avaliação 5 estrelas sobre tratamento de canal" loading="lazy">
+        <p class="comparison-slider__text">O clareamento dental é um procedimento seguro e eficiente para deixar o sorriso mais brilhante, natural e confiante, com resultado visível e cuidado individualizado.</p>
+
+        <input type="range" min="0" max="100" value="50" class="comparison-slider__range" aria-label="Mover para comparar antes e depois">
       </div>
     </div>
   </section>
+
+  <!-- ============ VÍDEOS ============ -->
+  <section class="video-showcase" id="videos">
+    <div class="container">
+      <div class="section-head" data-aos="fade-up">
+        <p class="eyebrow eyebrow--center"><span class="dot"></span> Vídeos</p>
+        <h2>Veja mais sobre o cuidado do nosso atendimento</h2>
+      </div>
+
+      <div class="video-showcase__carousel" data-aos="fade-up">
+        <article class="video-card">
+          <video controls playsinline preload="metadata">
+            <source src="assets/videos/snapinsta-1788284296610.mp4" type="video/mp4">
+            Seu navegador não suporta vídeo HTML5.
+          </video>
+        </article>
+
+        <article class="video-card">
+          <video controls playsinline preload="metadata">
+            <source src="assets/videos/snapinsta-1788284352434.mp4" type="video/mp4">
+            Seu navegador não suporta vídeo HTML5.
+          </video>
+        </article>
+
+        <article class="video-card">
+          <video controls playsinline preload="metadata">
+            <source src="assets/videos/snapinsta-1788284402138.mp4" type="video/mp4">
+            Seu navegador não suporta vídeo HTML5.
+          </video>
+        </article>
+      </div>
+    </div>
+  </section>
+
 
   <!-- ============ LOCALIZAÇÃO / CONTATO ============ -->
   <section class="location" id="contato">
@@ -402,15 +441,11 @@
           </li>
           <li>
             <i class="fa-regular fa-clock"></i>
-            <div><strong>Horário</strong><span>Segunda a sexta, das 8h às 18h</span></div>
+            <div><strong>Horário</strong><span>Segunda a sexta, das 13h às 19h</span></div>
           </li>
           <li>
             <i class="fa-brands fa-whatsapp"></i>
             <div><strong>WhatsApp</strong><a href="https://wa.me/5537999645554" target="_blank" rel="noopener">(37) 99964-5554</a></div>
-          </li>
-          <li>
-            <i class="fa-regular fa-envelope"></i>
-            <div><strong>E-mail</strong><span>contato@dramichellesousa.com.br</span></div>
           </li>
         </ul>
 
@@ -457,8 +492,8 @@
       <img src="assets/images/logo.png" alt="Logotipo Dra. Michelle Sousa" class="footer__logo">
       <p>Atendimento odontológico humanizado, acolhedor e de confiança em Divinópolis - MG.</p>
       <div class="footer__social">
-        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
-        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.instagram.com/dra.michelle.odonto" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.facebook.com/michellemilene.sousaESSEAQUI" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
         <a href="https://wa.me/5537999645554" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
       </div>
     </div>
@@ -470,7 +505,6 @@
         <li><a href="#sobre">A Dra. Michelle</a></li>
         <li><a href="#tratamentos">Tratamentos</a></li>
         <li><a href="#sorrisos">Galeria</a></li>
-        <li><a href="#depoimentos">Depoimentos</a></li>
       </ul>
     </div>
 
@@ -478,7 +512,7 @@
       <h4>Tratamentos</h4>
       <ul>
         <li><a href="#tratamentos">Clínica Geral</a></li>
-        <li><a href="#tratamentos">Harmonização Facial</a></li>
+        <li><a href="#tratamentos">Clareamento Dental</a></li>
         <li><a href="#tratamentos">Odontopediatria</a></li>
         <li><a href="#tratamentos">Alinhadores Invisíveis</a></li>
       </ul>
@@ -489,7 +523,6 @@
       <ul class="footer__contact">
         <li><i class="fa-solid fa-location-dot"></i> Rua Rio de Janeiro, 324 — Sala 901, Ed. Lampadário</li>
         <li><i class="fa-brands fa-whatsapp"></i> <a href="https://wa.me/5537999645554" target="_blank" rel="noopener">(37) 99964-5554</a></li>
-        <li><i class="fa-regular fa-envelope"></i> contato@dramichellesousa.com.br</li>
       </ul>
     </div>
   </div>

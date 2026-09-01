@@ -21,6 +21,7 @@
     initCustomCursor();
     initBackToTop();
     initScrollCue();
+    initComparisonSlider();
   }
 
   /* -------- Ano do rodapé -------- */
@@ -176,6 +177,29 @@
         if (!target) return;
         e.preventDefault();
         scrollToEl(target);
+      });
+    });
+  }
+
+  function initComparisonSlider() {
+    document.querySelectorAll(".comparison-slider").forEach(function (slider) {
+      var input = slider.querySelector(".comparison-slider__range");
+      var overlay = slider.querySelector(".comparison-slider__overlay");
+      var divider = slider.querySelector(".comparison-slider__divider");
+
+      if (!input || !overlay || !divider) return;
+
+      function updateSlider(value) {
+        var percent = Math.max(0, Math.min(100, value));
+        overlay.style.width = (100 - percent) + "%";
+        divider.style.left = (100 - percent) + "%";
+        input.style.setProperty("--value", (100 - percent) + "%");
+      }
+
+      updateSlider(input.value);
+
+      input.addEventListener("input", function () {
+        updateSlider(this.value);
       });
     });
   }
